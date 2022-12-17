@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css"
+        integrity="sha512-OdEXQYCOldjqUEsuMKsZRj93Ht23QRlhIb8E/X0sbwZhme8eUw6g8q7AdxGJKakcBbv7+/PX0Gc2btf7Ru8cZA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script data-ad-client="ca-pub-5487157982284364" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <link rel='shortcut icon' type='image/x-icon' href='templates/images/logo.png' />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Glory:wght@500&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+<style>
+    .navbar {
+        background-color: black !important;
+        
+
+    }
+    
+
+    .navbar-brand {
+        font-size: 1.5rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        letter-spacing: 0.3px;
+    }
+
+    .navbar-toggle {
+        position: absolute;
+
+    }
+
+    .navbar-brand:hover {
+        color: unset;
+    }
+
+    nav .navbar-nav li a {
+        color: #f1ce07 !important;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        letter-spacing: 0.9px;
+    }
+
+    .dropdown-menu {
+        background-color: black !important;
+    }
+
+    .dropdown-item:hover {
+        background-color: unset;
+
+    }
+    #navhr{
+        background-color: black !important;
+        color: #f1ce07 !important;
+    }
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+      .sticky + .jumbotron{
+          padding-top: 60px;
+      }
+    .jumbotron {
+        border-radius: unset;
+        background-color:black !important;
+    }
+
+    .jumbotron h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+        color: #f1ce07;
+    }
+
+    .jumbotron a {
+        border-radius: 70px;
+        width: 250px;
+        background-color: #f1ce07;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+        transform: translate(0px, 50px);
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+
+    .jumbotron a:hover {
+        background-color: black !important;
+        color: #f1ce07;
+        border-color: #f1ce07;
+
+    }
+    
+    .jumbotron .container-fluid .row img {
+        width: 120px;
+        height: 140px;
+        position: relative;
+        
+        
+
+    }
+
+    .jumbotron .container-fluid .row img:hover {
+
+        transform: rotate(360deg);
+        transition-delay: 0.5s;
+        transition-duration: 3s;
+    }
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    #medialinks {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .center_img {
+        align-items: center !important;
+        justify-content: center;
+        width: 95%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        border: 3px solid black;
+    }
+
+    .titles {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        color: black;
+
+    }
+
+    .about_text {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+
+    .img-thumbnail {
+        border-color: black;
+        border-width: 2px;
+    }
+
+    
+
+    h4 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .card{
+        border-radius: unset;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .card:hover{
+        cursor: pointer;
+        box-shadow: 2px 0px 2px 2px black;
+        background-color:black;
+        transition-duration: 1s;
+        color: yellow;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    footer{
+        background-color: black !important;
+        letter-spacing:0.8px;
+        
+    }
+    .icon_border{
+        color:white;
+     }
+    .icon_border:hover{
+       color: #f1ce07;
+       cursor: pointer;
+    }
+    #menubar{
+        border: 2px solid black;
+    }
+    #menubar:hover{
+        background-color: unset !important;
+        
+    }
+    .btn{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    
+</style>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+            <a class="navbar-brand text-warning font-weight-bold" href="index.html">Shreyas Gulavani</a>
+            <button class="navbar-toggler btn-warning" id="menubar" onclick="menu();" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-cog text-warning" id="bar"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto pr-2 font-weight-bold  ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Who am I?</a>
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            What all I do?
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                            <a class="dropdown-item text-light font-weight-bold dropmenu" href="#tech">TECH</a>
+
+                            <a class="dropdown-item text-light font-weight-bold dropmenu" href="https://www.youtube.com/channel/UC-8zovDHyU_RtbEegioHTZA" target="_blank">YOUTUBE</a>
+
+                            <a class="dropdown-item text-light font-weight-bold dropmenu" href="https://medium.com/@shreyasgulavani5" target="_blank">BLOGS</a>
+
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                   
+                </ul>
+
+            </div>
+        </nav>
+        
+        <div class="jumbo">
+            <div class="jumbotron bg-warning text-center">
+                <div class="container-fluid">
+                    <div class="row">
+                        <img src="templates/images/logo.png" class="img-fluid center pb-3">
+                    </div>
+                </div>
+                <h1 class="display-4">Hola,This is Shreyas Gulavani</h1>
+
+
+                <p class="lead">
+                    <a class="btn btn-dark btn-lg mb-0"
+                        href="Shreyas_Gulavani.pdf"
+                        target="_blank" role="button">VIEW RESUME</a>
+                </p><br>
+
+
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container-fluid  mb-3">
+            <h1 class="text-center titles" id="about">About Me</h1>
+            <hr class="mx-auto w-50">
+            <div class="row mx-2  text-justify">
+                <div class="col-lg-6 col-sm-12 col-12 about_text">
+                    I'm pretty passionate about Tech and Travel. I have been playing around multiple technologies and
+                    trying to explore them. To be precise, I am more into Full stack development having a fair amount of
+                    knowledge in frontend and in backend as well.<a href="#" target="_blank"> <br>[ View Projects
+                        ]<br><br></a>
+                    <p>I have been on YouTube platform as a content creator, have visited various beautiful and offbeat
+                        destinations in India and posted short glimpses of them on my channel.<a
+                            href="https://youtu.be/98az5wgs_dg" target="_blank"> <br>[ Visit Channel ]</a><br><br>I love
+                        writing about any stuff, not in a professional manner but I write for myself and I enjoy doing
+                        so.<a href="https://medium.com/@shreyasgulavani5" target="_blank"><br>[ View Article ]</a></p>
+                </div>
+                <div class="col-lg-6 col-sm-12 col-12">
+                    <img src="templates/images/about.png" class="img-fluid ml-1 center_img">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="skill">
+        <div class="container pt-4" id="tech">
+
+            <h1 class="text-center titles">Technical Skillset</h1>
+            <hr class="w-50 mx-auto">
+            <h4 class="text-center">Programming Languages</h4><br>
+            <div class="row mx-3 text-center">
+
+                <div class="col-4">
+                    <i class="fab fa-java fa-2x text-primary" aria-label="Java"></i><br>
+                    <label>Java</label>
+                </div>
+
+                <div class="col-4">
+
+                    <i class="fab fa-python fa-2x text-warning"></i><br>
+                    <label>Python</label>
+                </div>
+
+                <div class="col-4">
+
+                    <i class="fas fa-code fa-2x text-secondary"></i><br>
+                    <label>C/C++</label>
+                </div>
+            </div>
+            <hr class="mx-auto w-25">
+            <br>
+            <h4 class="text-center">Frontend Technologies</h4><br>
+            <div class="row mx-3 text-center">
+
+                <div class="col-3">
+                    <i class="fab fa-html5 fa-2x text-primary" aria-label="Java"></i><br>
+                    <label>HTML5</label>
+                </div>
+
+                <div class="col-3">
+
+                    <i class="fab fa-css3 fa-2x text-danger"></i><br>
+                    <label>CSS3</label>
+                </div>
+
+                <div class="col-3">
+
+                    <i class="fas fa-laptop-code fa-2x" style="color: rgb(196, 196, 71);"></i><br>
+                    <label>JS</label>
+                </div>
+
+                <div class="col-3">
+
+                    <i class="fab fa-bootstrap fa-2x" style="color: rgba(112, 17, 112, 0.719);"></i><br>
+                    <label>Bootstrap</label>
+                </div>
+            </div>
+            <hr class="mx-auto w-25">
+            <br>
+            <h4 class="text-center">Other Technologies</h4><br>
+            <div class="row mx-3 text-center">
+
+                <div class="col-6">
+                    <i class="fab fa-aws fa-2x pb-1" aria-label="Java"></i><br>
+                    <label>Amazon Web Services</label>
+                </div>
+                <div class="col-6">
+                    <i class="fas fa-database fa-2x pb-1" aria-label="Java"></i><br>
+                    <label>DBMS (MySQL) </label>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section>
+        <br>
+        <div class="container-fluid" id="projects">
+            <h1 class="text-center titles">Projects</h1>
+            <hr class="mx-auto w-50">
+            <div class="row  text-center">
+                <div class="col-lg-4 col-sm-12 col-12 pb-5" style="align-items: center; justify-content:center;">
+                <div class="card stretched-link mx-auto" style="border:2px solid black; width: 20rem; height: 25rem;">
+                    <div class="card-title text-center font-weight-bold">REALTIME CURRENCY CONVERTER</div>
+                    <img class="card-img-top" src="templates/images/prj1.png" alt="No Preview Available">
+                    <div class="card-body">
+
+                        <p class="card-text text-center font-weight-bold">-Tech Stack-<br>Flask/Python + API Integrated
+                        </p>
+                        <div class="pt-5"><a href="http://livecurrency.pythonanywhere.com/" class="btn btn-warning stretched-link" style="border:2px solid black;" target="_blank">View Project</a></div>
+                    </div>
+                </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 col-12 pb-5">
+                <div class="card stretched-link mx-auto" style="border:2px solid black; width: 20rem; height: 28rem;">
+                    <div class="card-title text-center font-weight-bold">Encrypto (Password Manager)</div>
+                    <img class="card-img-top" src="templates/images/prj2.png" alt="Card image cap">
+                    <div class="card-body">
+
+                        <p class="card-text text-center font-weight-bold">-Tech Stack-<br>Python + MySQL + Encryption
+                        </p>
+                        <a href="http://encrypto.pythonanywhere.com/" target="_blank" class="btn btn-warning stretched-link" style="border:2px solid black;">View Project</a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 col-12 pb-5">
+                <div class="card stretched-link mx-auto" style="border:2px solid black; width: 20rem; height: 25rem;">
+                    <div class="card-title text-center font-weight-bold">PDF Utils</div>
+                    <img class="card-img-top" src="templates/images/prj3.png" alt="Card image cap">
+                    <div class="card-body">
+
+                        <p class="card-text text-center font-weight-bold"><br>-Tech Stack-<br>Flask/Python + MySQL + PyPDF2
+                        </p>
+                        <div class="pt-5"><a href="https://splitpdf.pythonanywhere.com/" class="btn btn-warning stretched-link" aria-disabled="true" style="border:2px solid black;" target="_blank" disabled>View Project</a></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+    <section>
+        <br>
+        <div class="container-fluid" id="projects">
+            <h1 class="text-center titles">A Glimpse of my Youtube Channel</h1>
+            <hr class="mx-auto w-50">
+            <div class="row  text-center">
+                <div class="col-lg-4 col-sm-12 col-12 pb-5" style="align-items: center; justify-content:center;">
+                    <iframe width="400" height="300"
+                    src="https://www.youtube.com/embed/cQN4UhnSpZ4">
+                    </iframe>
+                </div>
+                
+                
+                    <div class="col-lg-4 col-sm-12 col-12 pb-5" style="align-items: center; justify-content:center;">
+                        <iframe width="400" height="300"
+                        src="https://www.youtube.com/embed/CE_2XFvO4i8">
+                        </iframe>
+                    </div>
+                    
+                    
+                        <div class="col-lg-4 col-sm-12 col-12 pb-5" style="align-items: center; justify-content:center;">
+                            <iframe width="400" height="300"
+                            src="https://www.youtube.com/embed/COrxxcnbUhw">
+                            </iframe>
+                        </div>
+                        
+                
+            
+
+        </div>
+        </div>
+    </section>
+    <!-- Footer -->
+<footer class="page-footer font-small pt-4">
+
+    <!-- Footer Elements -->
+    <div class="container">
+  
+      <!-- Social buttons -->
+      <ul class="list-unstyled list-inline text-center" id="connect">
+       
+        
+        <li class="list-inline-item p-1 ">
+          <a class="btn-floating btn-gplus mx-1" href="mailto:shreyasgulavani0208@gmail.com" target="_blank">
+            <i class="fab fa-google-plus-g fa-2x  icon_border"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item  p-1 ">
+          <a class="btn-floating btn-li mx-1" href="https://www.linkedin.com/in/shreyasgulavani/" target="_blank">
+            <i class="fab fa-linkedin-in fa-2x  icon_border"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item p-1 ">
+            <a class="btn-floating btn-li mx-1" href="https://github.com/shreyas0208" target="_blank">
+              <i class="fab fa-github fa-2x  icon_border"> </i>
+            </a>
+          </li>
+        
+      </ul>
+      <!-- Social buttons -->
+  
+    </div>
+    <!-- Footer Elements -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center pt-1 pb-4">
+      <a href="index.html" style="color: #f1ce07; font-size:1.3rem; text-decoration:none; font-family:Georgia, 'Times New Roman', Times, serif;">&#169; Shreyas Gulavani 2021 </a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+     
+</body>
+<script>
+function menu(){
+    document.getElementById('menubar').style='border 2px solid black';
+}
+</script>
+
+</html>
