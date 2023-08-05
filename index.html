@@ -25,15 +25,17 @@
 </head>
 <style>
     .navbar {
-        background-color: black !important;
+        background-color: white !important;
         
 
     }
-    
+    span{
+        color:rgb(248, 10, 10) !important;
+    }
 
     .navbar-brand {
         font-size: 1.5rem;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: cursive;
         letter-spacing: 0.3px;
     }
 
@@ -45,15 +47,19 @@
     .navbar-brand:hover {
         color: unset;
     }
+    .nav a{
 
+        color : rgb(248, 10, 10) !important;
+    }
     nav .navbar-nav li a {
-        color: #f1ce07 !important;
-        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: rgb(248, 10, 10) !important;
+        font-family:cursive;
         letter-spacing: 0.9px;
     }
 
     .dropdown-menu {
         background-color: black !important;
+        color: rgb(248, 10, 10) !important;
     }
 
     .dropdown-item:hover {
@@ -62,7 +68,7 @@
     }
     #navhr{
         background-color: black !important;
-        color: #f1ce07 !important;
+        color: rgb(248, 10, 10) !important;
     }
     .sticky {
         position: fixed;
@@ -74,37 +80,38 @@
       }
     .jumbotron {
         border-radius: unset;
-        background-color:black !important;
+        background-color:white !important;
     }
 
     .jumbotron h1 {
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: cursive;
 
-        color: #f1ce07;
+        color: rgb(248, 10, 10) !important;
     }
 
     .jumbotron a {
-        border-radius: 70px;
+        
         width: 250px;
-        background-color: #f1ce07;
-        color: black;
+        background-color: white;
+        color: rgb(248, 10, 10);
         font-weight: bold;
         cursor: pointer;
         transform: translate(0px, 50px);
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family:cursive;
+        border-color: rgb(248, 10, 10);
         
     }
 
     .jumbotron a:hover {
-        background-color: black !important;
-        color: #f1ce07;
-        border-color: #f1ce07;
+        background-color: rgb(248, 10, 10) !important;
+        color: white(248, 10, 10);
+        border-color: rgb(248, 10, 10);
 
     }
     
     .jumbotron .container-fluid .row img {
-        width: 120px;
-        height: 140px;
+        width: 300px;
+        height: 250px;
         position: relative;
         
         
@@ -135,50 +142,50 @@
     .center_img {
         align-items: center !important;
         justify-content: center;
-        width: 95%;
+        width: 40%;
         display: block;
         margin-left: auto;
-        margin-right: auto;
+        transform: translate(220px, 0px);
 
-        border: 3px solid black;
+        
     }
 
     .titles {
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: cursive;
         font-weight: bold;
-        color: black;
+        color: rgb(248, 10, 10);
 
     }
 
     .about_text {
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: cursive;
         font-size: 20px;
     }
 
     .img-thumbnail {
-        border-color: black;
+        border-color: rgb(248, 10, 10);
         border-width: 2px;
     }
 
     
 
     h4 {
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: cursive;
     }
     .card{
         border-radius: unset;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: cursive;
     }
     .card:hover{
         cursor: pointer;
-        box-shadow: 2px 0px 2px 2px black;
-        background-color:black;
+        box-shadow: 2px 0px 2px 2px rgb(248, 10, 10);
+        background-color:white;
         transition-duration: 1s;
-        color: yellow;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(248, 10, 10);
+        font-family: cursive;
     }
     footer{
-        background-color: black !important;
+        background-color: white !important;
         letter-spacing:0.8px;
         
     }
@@ -186,18 +193,22 @@
         color:white;
      }
     .icon_border:hover{
-       color: #f1ce07;
+       color: rgb(248, 10, 10);
        cursor: pointer;
     }
     #menubar{
-        border: 2px solid black;
+        border: 2px solid white;
     }
     #menubar:hover{
         background-color: unset !important;
         
     }
     .btn{
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: cursive;
+    }
+    footer{
+        color: rgb(248, 10, 10) !important;
+        
     }
     
     
@@ -207,7 +218,7 @@
     <header>
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
-            <a class="navbar-brand text-warning font-weight-bold" href="index.html">Shreyas Gulavani</a>
+            <a class="navbar-brand text-warning font-weight-bold" href="index.html"><span>Omkar Kamble</span></a>
             <button class="navbar-toggler btn-warning" id="menubar" onclick="menu();" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -233,8 +244,6 @@
 
                             <a class="dropdown-item text-light font-weight-bold dropmenu" href="https://www.youtube.com/channel/UC-8zovDHyU_RtbEegioHTZA" target="_blank">YOUTUBE</a>
 
-                            <a class="dropdown-item text-light font-weight-bold dropmenu" href="https://medium.com/@shreyasgulavani5" target="_blank">BLOGS</a>
-
                         </div>
                     </li>
                     <li class="nav-item">
@@ -253,12 +262,12 @@
                         <img src="templates/images/logo.png" class="img-fluid center pb-3">
                     </div>
                 </div>
-                <h1 class="display-4">Hola,This is Shreyas Gulavani</h1>
+                <h1 class="display-4">Hola, I am Omkar Kamble</h1>
 
 
                 <p class="lead">
                     <a class="btn btn-dark btn-lg mb-0"
-                        href="Shreyas_Gulavani.pdf"
+                        href="Resume_Omkar_Kamble.pdf"
                         target="_blank" role="button">VIEW RESUME</a>
                 </p><br>
 
@@ -272,15 +281,11 @@
             <hr class="mx-auto w-50">
             <div class="row mx-2  text-justify">
                 <div class="col-lg-6 col-sm-12 col-12 about_text">
-                    I'm pretty passionate about Tech and Travel. I have been playing around multiple technologies and
+                    I'm pretty passionate about Tech and Football. I have been playing around multiple technologies and
                     trying to explore them. To be precise, I am more into Full stack development having a fair amount of
-                    knowledge in frontend and in backend as well.<a href="#projects"> <br>[ View Project
-                        ]<br><br></a>
-                    <p>I have been on YouTube platform as a content creator, have visited various beautiful and offbeat
-                        destinations in India and posted short glimpses of them on my channel.<a
-                            href="https://youtu.be/98az5wgs_dg" target="_blank"> <br>[ Visit Channel ]</a><br><br>I love
-                        writing about any stuff, not in a professional manner but I write for myself and I enjoy doing
-                        so.<a href="https://medium.com/@shreyasgulavani5" target="_blank"><br>[ View Article ]</a></p>
+                    knowledge in frontend.<a href="#projects"> <br><br></a>
+                    <p>I have been on YouTube platform as a standup performer.<a
+                            href="https://youtu.be/98az5wgs_dg" target="_blank"> <br></a><br>I love playing football a lot , I'm obsessed with this game as I started playing it in very early age and I alwayas dreamt to make it to the professional.<a href="https://medium.com/@shreyasgulavani5" target="_blank"><br></a></p>
                 </div>
                 <div class="col-lg-6 col-sm-12 col-12">
                     <img src="templates/images/about.png" class="img-fluid ml-1 center_img">
@@ -296,10 +301,14 @@
             <hr class="w-50 mx-auto">
             <h4 class="text-center">Programming Languages</h4><br>
             <div class="row mx-3 text-center">
-
                 <div class="col-4">
-                    <i class="fab fa-java fa-2x text-primary" aria-label="Java"></i><br>
-                    <label>Java</label>
+
+                    <i class="fas fa-code fa-2x text-secondary"></i><br>
+                    <label>C/C++</label>
+                </div>
+                <div class="col-4">
+                    <i class="fab fa-js fa-2x"></i><br>
+                    <label>JavaScript</label>
                 </div>
 
                 <div class="col-4">
@@ -308,11 +317,7 @@
                     <label>Python</label>
                 </div>
 
-                <div class="col-4">
-
-                    <i class="fas fa-code fa-2x text-secondary"></i><br>
-                    <label>C/C++</label>
-                </div>
+                
             </div>
             <hr class="mx-auto w-25">
             <br>
@@ -332,8 +337,8 @@
 
                 <div class="col-3">
 
-                    <i class="fas fa-laptop-code fa-2x" style="color: rgb(196, 196, 71);"></i><br>
-                    <label>JS</label>
+                    <i class="fas fa-laptop-code fa-2x" style="color: rgb(248, 10, 10);"></i><br>
+                    <label>React JS</label>
                 </div>
 
                 <div class="col-3">
@@ -347,11 +352,7 @@
             <h4 class="text-center">Other Technologies</h4><br>
             <div class="row mx-3 text-center">
 
-                <div class="col-6">
-                    <i class="fab fa-aws fa-2x pb-1" aria-label="Java"></i><br>
-                    <label>Amazon Web Services</label>
-                </div>
-                <div class="col-6">
+                <div class="col-12">
                     <i class="fas fa-database fa-2x pb-1" aria-label="Java"></i><br>
                     <label>DBMS (MySQL) </label>
                 </div>
@@ -375,7 +376,7 @@
 
                         <p class="card-text text-center font-weight-bold">-Tech Stack-<br>Flask/Python + API Integrated
                         </p>
-                        <div class="pt-5"><a href="http://livecurrency.pythonanywhere.com/" class="btn btn-warning stretched-link" style="border:2px solid black;" target="_blank">View Project</a></div>
+                        <div class="pt-5"><a href="http://livecurrency.pythonanywhere.com/" class="btn btn-warning stretched-link" style="border:2px solid rgb(248, 10, 10); color: white; background-color: rgb(248, 10, 10);" target="_blank">View Project</a></div>
                     </div>
                 </div>
                 </div>
@@ -387,7 +388,7 @@
 
                         <p class="card-text text-center font-weight-bold">-Tech Stack-<br>Python + MySQL + Encryption
                         </p>
-                        <a href="http://encrypto.pythonanywhere.com/" target="_blank" class="btn btn-warning stretched-link" style="border:2px solid black;">View Project</a>
+                        <a href="http://encrypto.pythonanywhere.com/" target="_blank" class="btn btn-warning stretched-link" style="border:2px solid rgb(248, 10, 10); color: white; background-color: rgb(248, 10, 10);">View Project</a>
                     </div>
                 </div>
                 </div>
@@ -399,7 +400,7 @@
 
                         <p class="card-text text-center font-weight-bold"><br>-Tech Stack-<br>Flask/Python + MySQL + PyPDF2
                         </p>
-                        <div class="pt-5"><a href="https://splitpdf.pythonanywhere.com/" class="btn btn-warning stretched-link" aria-disabled="true" style="border:2px solid black;" target="_blank" disabled>View Project</a></div>
+                        <div class="pt-5"><a href="https://splitpdf.pythonanywhere.com/" class="btn stretched-link" aria-disabled="true" style="border:2px solid rgb(248, 10, 10); color: white; background-color: rgb(248, 10, 10);" target="_blank" disabled>View Project</a></div>
                     </div>
                 </div>
                 </div>
@@ -411,26 +412,26 @@
     <section>
         <br>
         <div class="container-fluid" id="projects">
-            <h1 class="text-center titles">A Glimpse of my Youtube Channel</h1>
+            <h1 class="text-center titles">A glimpse from some of my standup acts </h1>
             <hr class="mx-auto w-50">
             <div class="row  text-center">
                 <div class="col-lg-4 col-sm-12 col-12 pb-5" style="align-items: center; justify-content:center;">
                     <iframe width="360" height="300"
-                    src="https://www.youtube.com/embed/cQN4UhnSpZ4">
+                    src="https://www.youtube.com/embed/ZxYzLCN2MX0">
                     </iframe>
                 </div>
                 
                 
                     <div class="col-lg-4 col-sm-12 col-12 pb-5" style="align-items: center; justify-content:center;">
                         <iframe width="360" height="300"
-                        src="https://www.youtube.com/embed/CE_2XFvO4i8">
+                        src="https://www.youtube.com/embed/PP-Nsiy6-Hg">
                         </iframe>
                     </div>
                     
                     
                         <div class="col-lg-4 col-sm-12 col-12 pb-5" style="align-items: center; justify-content:center;">
                             <iframe width="360" height="300"
-                            src="https://www.youtube.com/embed/COrxxcnbUhw">
+                            src="https://www.youtube.com/embed/Swm-I69Me7Y">
                             </iframe>
                         </div>
                         
@@ -474,7 +475,7 @@
   
     <!-- Copyright -->
     <div class="footer-copyright text-center pt-1 pb-4">
-      <a href="index.html" style="color: #f1ce07; font-size:1.3rem; text-decoration:none; font-family:Georgia, 'Times New Roman', Times, serif;">&#169; Shreyas Gulavani 2022 </a>
+      <a href="index.html" style="color: rgb(248, 10, 10); font-size:1.3rem; text-decoration:none; font-family:cursive; background-color: rgb(248, 10, 10); color: white; padding: 1mm">&#169; Omkar Kamble 2023 </a>
     </div>
     <!-- Copyright -->
   
